@@ -1,0 +1,9 @@
+.gallery {display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-column-gap: 20px;
+padding: 40px;
+         img {
+        display: flex;
+        width: 100%;
+        max-height: 300px;
+        object-fit: cover;}}
