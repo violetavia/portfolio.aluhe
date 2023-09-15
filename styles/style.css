@@ -76,17 +76,13 @@
   object-fit: cover;
 }
 
-.gallery.proyectos {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-}
-.gallery.proyectos .grid-item {
+.gallery-proyectos {
   display: flex;
-}
-.gallery.proyectos .grid-item img {
-  width: 100%;
-  height: 150px;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
