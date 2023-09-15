@@ -1,0 +1,20 @@
+.bienvenida {    
+    padding: 20px 40px 20px 40px;
+    h2 {display: flex;
+        justify-content: center};
+    span {display: flex;
+    align-items: center;}
+    img {width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    margin-top: 10px;}
+}
+
+.action { display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to left, $primary-color, #5db3f0);
+.contacto {display: flex;
+flex-direction: column;
+.boton-wsp {display: flex;;
+align-items: center;}}
+}

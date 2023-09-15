@@ -4,46 +4,38 @@
 }
 
 @media (max-width: 767px) {
+  .bienvenida span {
+    display: flex;
+    flex-direction: column;
+  }
+  .bienvenida p {
+    text-align: center;
+  }
   .bienvenida h1 {
     display: flex;
     justify-content: center;
     text-align: center;
   }
-  span {
-    display: flex;
-    flex-direction: column;
-  }
-  p {
-    text-align: center;
-  }
-  h2 {
-    display: flex;
-    justify-content: center;
-  }
-
-.action {display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;}
-
-
-
+}
+.action .content {
+  padding: 30px;
+}
+.action .boton-wsp {
+  padding: 10px 30px;
 }
 
 .bienvenida {
   padding: 20px 40px 20px 40px;
 }
-.bienvenida h2 {
-  display: flex;
-  justify-content: center;
-}
+
 .bienvenida span {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 .bienvenida img {
   width: 100%;
-  max-height: 200px;
+  max-height: 400px;
   object-fit: cover;
   margin-top: 10px;
 }
@@ -63,23 +55,16 @@ justify-content: center;}
 .action p {
   color: aliceblue;
 }
-
-
-.action .contacto .boton-wsp {
-  display: flex;
-  padding: 10px 30px;
-  margin-bottom: 10px;
+.action .boton-wsp {
+  padding: 10px 40px;
   background-color: green;
   margin: 40px;
   border-radius: 30px;
 }
-
 .action .boton-wsp h3 {
   color: aliceblue;
-  font-size: 1rem;
-  margin: 10px;
+  font-size: 1.5rem;
 }
-.mail {margin-top: 10px;}
 
 .gallery {
   display: grid;
@@ -103,17 +88,10 @@ justify-content: center;}
   margin: 20px;
 }
 
+.gallery-proyectos .grid-item img {margin: 15px;}
+
 .navbar .nav-link:hover {
   color: burlywood;
 }
 
-main .mail {display: flex;
-justify-content: center;}
-
-footer {display: flex;
-flex-direction: column;
-align-items: center;}
-
-
-
-/*# sourceMappingURL=css.map */
+/*# sourceMappingURL=style.css.map */
