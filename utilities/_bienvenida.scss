@@ -1,6 +1,8 @@
 .bienvenida {    
     padding: 20px 40px 20px 40px;
-    span {display: flex;;
+    h2 {display: flex;
+        justify-content: center};
+    span {display: flex;
     align-items: center;}
     img {width: 100%;
     max-height: 200px;

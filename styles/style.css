@@ -11,9 +11,10 @@
   .bienvenida p {
     text-align: center;
   }
-  .bienvenida h2 {
+  .bienvenida h1 {
     display: flex;
     justify-content: center;
+    text-align: center;
   }
 }
 .action .content {
@@ -26,13 +27,15 @@
 .bienvenida {
   padding: 20px 40px 20px 40px;
 }
+
 .bienvenida span {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 .bienvenida img {
   width: 100%;
-  max-height: 200px;
+  max-height: 400px;
   object-fit: cover;
   margin-top: 10px;
 }
@@ -83,6 +86,12 @@
   flex-direction: row;
   align-items: center;
   margin: 20px;
+}
+
+.gallery-proyectos .grid-item img {margin: 15px;}
+
+.navbar .nav-link:hover {
+  color: burlywood;
 }
 
 /*# sourceMappingURL=style.css.map */
