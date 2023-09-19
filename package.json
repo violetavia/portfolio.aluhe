@@ -10,5 +10,8 @@
   "license": "ISC",
   "devDependencies": {
     "sass": "^1.66.1"
+  },
+  "dependencies": {
+    "aos": "^2.3.4"
   }
 }
