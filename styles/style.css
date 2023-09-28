@@ -73,6 +73,10 @@ justify-content: center;}
   align-items: center; 
 }
 
+.action .boton-wsp a {
+  text-decoration: none;
+}
+
 .contenido-boton {
   background-color: green;
   padding: 10px 30px;
@@ -86,6 +90,10 @@ justify-content: center;}
   color: aliceblue;
   font-size: 1rem;
   margin: 10px;
+}
+
+.action .boton-wsp:hover .contenido-boton {
+  opacity: 0.7;
 }
 .mail {margin-top: 10px;}
 
